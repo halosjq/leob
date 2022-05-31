@@ -1,0 +1,63 @@
+{
+  "db": {
+    "host": "mysql-arronbyrd75.alwaysdata.net",
+    "user": "240179",
+    "password": "200914.Jv",
+    "database": "arronbyrd75_kirari2"
+  },
+  "bot": {
+    "token": "1663456505:AAH-TBhQ525OL5WBRl2uAe_6O1eE2gF9wqA",
+    "id": "1663456505",
+    "username": "vaddddddddvfsbot",
+    "captcha": false,
+    "channel_id": "-1001248463595",
+    "prices": {
+      "currency": "USD",
+      "paypal": false,
+      "user": {
+        "month": 10,
+        "week": 4,
+        "two_weeks": 6
+      },
+      "group": {
+        "premium": 10,
+        "free": 5
+      },
+      "credits": {
+        "100": 2.5,
+        "200": 5,
+        "500": 10
+      }
+    }
+  },
+  "groups": {
+    "register": {
+      "min": 50,
+      "days": 10
+    }
+  },
+  "users": {
+    "tag_check": true,
+    "def_lang": "en",
+    "max_warns": 3,
+    "muted_time": 1800,
+    "check_limit": {
+      "time": 86400,
+      "limit": 60
+    },
+    "antispam": 70,
+    "antiflood": {
+      "enabled": false,
+      "msg": 10,
+      "time": 60,
+      "punish": {
+        "ban": false,
+        "warn": true
+      }
+    }
+  },
+  "cmd": {
+    "separators": ["!","¡",".",",","/","$", "-", "#"]
+  },
+  "owner": [996202950,1767091122,2019196177]
+}

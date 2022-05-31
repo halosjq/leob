@@ -1,0 +1,10 @@
+/.vscode
+/vendor
+/tests
+*.txt
+*.md
+*.json
+*.log
+*.sh
+*.enc
+*.lock
